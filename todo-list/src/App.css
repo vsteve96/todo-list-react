@@ -1,0 +1,60 @@
+/* App.css */
+.App {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  li span {
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  .date {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  li button {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
